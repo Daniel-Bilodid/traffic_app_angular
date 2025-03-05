@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './status.component.css',
 })
 export class StatusComponent {
-  @Input({ required: true }) currentStatus!: string;
+  currentStatus = 'online';
 }
